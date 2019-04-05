@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b3f69f5-4167-46ae-b94e-29e62771a264" name="Default" comment="">
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/images.support.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/recentSolutions.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/recentSolutionsConfiguration.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/riderVersions.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/stubIndex.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/updates.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/usage.statistics.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/window.manager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/Debug/netcoreapp2.0/ldnetcorerestapitodbgen.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/Debug/netcoreapp2.0/ldnetcorerestapitodbgen.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/ldnetcorerestapitodbgen.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/ldnetcorerestapitodbgen.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/ldnetcorerestapitodbgen.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/ldnetcorerestapitodbgen.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ldnetcorerestapitodbgen/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ldnetcorespavdb/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/ldnetcorespavdb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/ldnetcorespavdb.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/ldnetcorespavdb.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/ldnetcorespavdb.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/Debug/netcoreapp2.0/ldnetcorespavdb.csprojResolveAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/ldnetcorespavdb.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/ldnetcorespavdb.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/ldnetcorespavdb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/ldnetcorespavdb.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnetcorespavdb/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ldnetcorespavdb/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/Debug/netcoreapp2.0/ldnotificationsenderprocess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/Debug/netcoreapp2.0/ldnotificationsenderprocess.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/ldnotificationsenderprocess.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/ldnotificationsenderprocess.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/ldnotificationsenderprocess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/ldnotificationsenderprocess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ldnotificationsenderprocess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../randomcodegenpoc/obj/Debug/netcoreapp2.0/randomcodegenpoc.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../randomcodegenpoc/obj/Debug/netcoreapp2.0/randomcodegenpoc.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../randomcodegenpoc/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../randomcodegenpoc/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../randomcodegenpoc/obj/randomcodegenpoc.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../randomcodegenpoc/obj/randomcodegenpoc.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../randomcodegenpoc/obj/randomcodegenpoc.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../randomcodegenpoc/obj/randomcodegenpoc.csproj.nuget.g.props" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CustomController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/WebApis/CustomController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1524407564906" expanded="false" signature="6:377" ph="..." />
+                <marker date="1524407564906" expanded="true" signature="412:12168" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="452:553" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="662:12166" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="742:12160" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="1242:12080" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="3390:3573" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="3602:3722" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="4403:4586" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="4615:4735" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="5462:5609" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="5638:5758" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="6602:6721" ph="{...}" />
+                <marker date="1524407564906" expanded="true" signature="6750:6870" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomBusinessLogic.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/businesslogic/CustomBusinessLogic.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <marker date="1523210180329" expanded="false" signature="6:253" ph="..." />
+                <marker date="1523210180329" expanded="true" signature="294:5278" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="383:5276" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="521:596" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="676:786" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="857:1133" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="999:1089" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="1241:2235" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="1459:2200" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="2098:2186" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="2317:2959" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="2372:2834" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="2464:2740" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="2867:2924" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="3042:3088" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="3156:3247" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="3306:3397" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="3468:4326" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="3664:4291" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="4212:4277" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="4409:4515" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="4606:4722" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="4823:4944" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="4997:5077" ph="{...}" />
+                <marker date="1523210180329" expanded="true" signature="5165:5270" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ldnetcorespavdb/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ldnetcorespavdb/WebApis/CustomController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ldnetcorespavdb/dal/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ldnetcorespavdb/businesslogic/CustomBusinessLogic.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ldnetcorespavdb/Views/_ViewImports.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="284" />
+    <option name="y" value="47" />
+    <option name="width" value="1500" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ldnetcorespavdb (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ldnetcorespavdb/bin/Debug/netcoreapp2.0/ldnetcorespavdb.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ldnetcorespavdb" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ldnetcorespavdb/ldnetcorespavdb.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" start="true" with-js-debugger="true" url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b3f69f5-4167-46ae-b94e-29e62771a264" name="Default" comment="" />
+      <created>1524790262866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524790262866</updated>
+      <workItem from="1524790264847" duration="513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="513000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="284" y="47" width="1500" height="1000" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2326389" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32946634" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1524790324532" expanded="true" signature="7:65" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/ldnetcorespavdb.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/WebApis/CustomController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1524407564906" expanded="false" signature="6:377" ph="..." />
+            <marker date="1524407564906" expanded="true" signature="412:12168" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="452:553" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="662:12166" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="742:12160" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="1242:12080" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="3390:3573" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="3602:3722" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="4403:4586" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="4615:4735" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="5462:5609" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="5638:5758" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="6602:6721" ph="{...}" />
+            <marker date="1524407564906" expanded="true" signature="6750:6870" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/dal/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <marker date="1519869620294" expanded="false" signature="6:116" ph="..." />
+            <marker date="1519869620294" expanded="true" signature="147:1293" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="217:1291" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="297:349" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="386:488" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="412:478" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="555:877" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="622:867" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="733:823" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="938:1283" ph="{...}" />
+            <marker date="1519869620294" expanded="true" signature="1078:1248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldnetcorespavdb/businesslogic/CustomBusinessLogic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <marker date="1523210180329" expanded="false" signature="6:253" ph="..." />
+            <marker date="1523210180329" expanded="true" signature="294:5278" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="383:5276" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="521:596" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="676:786" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="857:1133" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="999:1089" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="1241:2235" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="1459:2200" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="2098:2186" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="2317:2959" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="2372:2834" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="2464:2740" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="2867:2924" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="3042:3088" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="3156:3247" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="3306:3397" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="3468:4326" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="3664:4291" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="4212:4277" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="4409:4515" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="4606:4722" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="4823:4944" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="4997:5077" ph="{...}" />
+            <marker date="1523210180329" expanded="true" signature="5165:5270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

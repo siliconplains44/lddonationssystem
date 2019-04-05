@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "passwordhasher": {
+      "commandName": "Project",
+      "commandLineArgs": "aaaaaaaa"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build yivg",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "ldnetcorespavdb/ldnetcorespavdb.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

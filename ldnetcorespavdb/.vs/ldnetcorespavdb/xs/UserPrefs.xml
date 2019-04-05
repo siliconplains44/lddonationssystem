@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{92151578-D5F5-482A-B473-D4E9F25943BE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ldnetcorespavdb/wwwroot/viewmodules/manageclient.html">
+    <Files>
+      <File FileName="ldnetcorespavdb/wwwroot/viewmodules/manageclient.html" Line="204" Column="55" />
+      <File FileName="ldnetcorespavdb/wwwroot/viewmodules/manageclient.js" Line="69" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/allan/projects/yivg/ldnetcorespavdb/ldvdbdataaccess/ldncgenindividualsRepository.cs" relfile="ldvdbdataaccess/ldncgenindividualsRepository.cs" line="75" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ldnetcorespavdb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>docker-compose.dcproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.ldnetcorerestapitodbgen PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

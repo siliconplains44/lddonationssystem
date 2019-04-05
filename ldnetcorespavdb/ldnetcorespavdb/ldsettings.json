@@ -1,0 +1,10 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": ""
+  },
+  "SendGridApiKey": "",
+  "TwilioaccountSid": "",
+  "TwilioAuthToken": "",
+  "fromemailaddress": "",
+  "fromsmsphonenumber": ""
+}

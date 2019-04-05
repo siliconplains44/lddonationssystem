@@ -1,0 +1,189 @@
+﻿<div>
+    <div class="row mb-2">
+        <div class="col-md-2">
+            <a href="#" id="linkmanagedonors">Manage Donors</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Donor Personal Information</H2>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textlastname" class="col-form-label">Last Name</label>
+                <input type="text" class="form-control" id="textlastname">
+                <div class="invalid-feedback">
+                    Last Name is required!
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textmiddlename" class="col-form-label">Middle Name</label>
+                <input type="text" class="form-control" id="textmiddlename">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textfirstname" class="col-form-label">First Name</label>
+                <input type="text" class="form-control" id="textfirstname">
+                <div class="invalid-feedback">
+                    First Name is required!
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="datebirthday" class="col-form-label">Birthday</label>
+                <input type="date" class="form-control" id="datebirthday">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textmobilephonenumber" class="col-form-label">Mobile Phone Number</label>
+                <input type="text" class="form-control" id="textmobilephonenumber" placeholder="214-555-5555">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="texthomephonenumber" class="col-form-label">Home Phone Number</label>
+                <input type="text" class="form-control" id="texthomephonenumber" placeholder="214-555-5555">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="textaddresslineone" class="col-form-label">Address Line 1</label>
+                <input type="text" class="form-control" id="textaddresslineone" placeholder="2105 20th St">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="textaddresslinetwo" class="col-form-label">Address Line 2</label>
+                <input type="text" class="form-control" id="textaddresslinetwo" placeholder="#125">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textcity" class="col-form-label">City</label>
+                <input type="text" class="form-control" id="textcity">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textstate" class="col-form-label">State</label>
+                <input type="text" class="form-control" id="textstate">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="textzip" class="col-form-label">Zip</label>
+                <input type="text" class="form-control" id="textzip">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="#" class="btn btn-primary" id="buttonsavepersonalinformation">Save Personal Information</a>
+        </div>
+
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Sign Up Donor to Client Request</H2>
+        </div>
+    </div>    
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H4>Donor Enlisted Client Request Commitments</H4>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div id="enlistedclientrequestsgrid">
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H4>Available Client Requests Available for Commitment</H4>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div id="unenlistedclientrequestsgrid">
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Send Message to Donor</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-4">
+            <a href="#" class="btn btn-primary" id="buttonsendmessagetodonor">Send Message To Donor</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Deactivate Account</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-4">
+            <a href="#" class="btn btn-primary" id="buttondeactivatedonorfromsystem">Deactive Donor from System</a>
+        </div>
+    </div>
+</div>
+
+<!-- donor informatino save dialog -->
+
+<div class="modal" tabindex="-1" role="dialog" id="donorinformationsaveddialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Donor Information Saved</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This donor's information has been successfully saved!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- send message dialog -->
+
+<div class="modal" tabindex="-1" role="dialog" id="sendmessagetodonordialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dialogtitle">Send Message To Donor</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="textmessagesubject" class="col-form-label">Subject</label>
+                        <input type="text" class="form-control" id="textmessagesubject">
+                    </div>
+                    <div class="form-group">
+                        <label for="textmessagebody" class="col-form-label">Body</label>
+                        <textarea class="form-control" style="min-width: 100%" id="textmessagebody">
+        
+                        </textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttonsendmessagetodonorfromdialog">Send</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

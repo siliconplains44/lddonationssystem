@@ -1,0 +1,95 @@
+﻿<div>
+    <div class="row mb-2">
+        <div class="col-md-2">
+            <a href="#" id="linkdashboard">Dashboard</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Setup your Child's Program Requests</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>1 - Select Child</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <input class="form-control" id="childselector" />
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>2 - Select Program</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <input class="form-control" id="programselector" />
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Donor Uncommitted Requests</H2>
+            <p>If you need to change a request not commited to by a donor you can here</p>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div id="donornotcommittedrequestsgrid">
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <H2>Donor Committed Requests</H2>
+            <p>If you need to change a donor committed request please contact an admin</p>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div id="donorcommittedrequestsgrid">
+            </div>
+        </div>
+    </div>
+    <div class="row" id="three">
+        <div class="col-md-12">
+            <H2>3 - Add Request</H2>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-4">
+            <a href="#" class="btn btn-primary" id="buttonaddclientrequest">Add Request</a>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- read message dialog -->
+
+<div class="modal" tabindex="-1" role="dialog" id="addclientrequestdialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dialogtitle">Add Program Request</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>                                       
+                    <div class="form-group">
+                        <label for="textrequestinformation" class="col-form-label">Request</label>
+                        <textarea id="textrequestinformation" class="form-control" style="min-width: 100%"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttonsaveclientrequest">Save</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

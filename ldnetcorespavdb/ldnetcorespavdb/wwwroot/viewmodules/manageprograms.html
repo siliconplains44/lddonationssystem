@@ -1,0 +1,58 @@
+﻿<div>
+    <div class="row mb-2">
+        <div class="col-md-2">
+            <a href="#" id="linkdashboard">Dashboard</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <button id="buttonaddprogram" type="button" class="btn btn-primary">Add Program...</button>
+    </div>    
+    <div class="row" id="programstable">
+        
+    </div>
+    <div class="row mb-2">
+        <button id="buttonaddprogramevent" type="button" class="btn btn-primary">Add Program Event...</button>
+    </div>    
+    <div class="row" id="programeventstable">       
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteconfirmationdialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Confirmation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete the selected program, this will permanently purge this information.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttondeleteprogram">Delete</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteprogrameventconfirmationdialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Confirmation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete the selected program event, this will permanently purge this information.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttondeleteprogramevent">Delete</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

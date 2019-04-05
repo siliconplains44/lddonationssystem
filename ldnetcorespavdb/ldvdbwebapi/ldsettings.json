@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=mothershipmaria.leoparddata.com;uid=root;pwd=1his$is(really:long@hard8314;database=yivvdb;Allow User Variables=True;SslMode=none"
+  }
+}

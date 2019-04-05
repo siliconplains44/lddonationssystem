@@ -1,0 +1,14 @@
+admin
+
+inquiries@leoparddata.local
+aaaaaaaa
+
+client
+
+yivtest1@mailinator.com
+aaaaaaaa
+
+donor
+
+ldt1@mailinator.com
+aaaaaaaa

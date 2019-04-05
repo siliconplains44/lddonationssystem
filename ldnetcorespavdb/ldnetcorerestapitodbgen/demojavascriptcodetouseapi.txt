@@ -1,0 +1,82 @@
+﻿// transaction to add, modify, and delete an account type
+
+
+   var client = new AjajClient(); 
+    client.StartTransaction(function (ret) {
+
+        var protret = JSON.parse(ret);
+        var transid = protret.payload;
+
+        if (protret.succeeded == true) {
+            var newaccounttypes = new accounttypes();
+
+            newaccounttypes.Name = "test";
+
+            client.Createaccounttypes(newaccounttypes, transid, function (ret) {
+
+                var protret = JSON.parse(ret);
+
+                if (protret.succeeded == true) {
+
+                    newaccounttypes.AccountTypeID = protret.payload;
+                    newaccounttypes.Name = "testchanged";
+
+                    client.Modifyaccounttypes(newaccounttypes, transid, function (ret) {
+
+                        var protret = JSON.parse(ret);
+
+                        if (protret.succeeded == true) {
+
+                            client.Deleteaccounttypes(newaccounttypes, transid, function (ret) {
+
+                                var protret = JSON.parse(ret);
+
+                                if (protret.succeeded == true) {
+
+                                    client.CommitTransaction(transid, function (protret) {
+                                        cb();
+                                    });
+                                }
+                            });                            
+                        }
+                    });                    
+                }
+            });
+        }
+    });
+
+	// non transactional equivalent to the above
+
+	var client = new AjajClient();
+
+    var newaccounttypes = new accounttypes();
+
+    newaccounttypes.Name = "test";
+
+    client.Createaccounttypes(newaccounttypes, null, function (ret) {
+
+        var protret = JSON.parse(ret);
+
+        if (protret.succeeded == true) {
+
+            newaccounttypes.AccountTypeID = protret.payload;
+            newaccounttypes.Name = "testchanged";
+
+            client.Modifyaccounttypes(newaccounttypes, null, function (ret) {
+
+                var protret = JSON.parse(ret);
+
+                if (protret.succeeded == true) {
+
+                    client.Deleteaccounttypes(newaccounttypes, null, function (ret) {
+
+                        var protret = JSON.parse(ret);
+
+                        if (protret.succeeded == true) {
+                            cb();
+                        }
+                    });
+                }
+            });
+        }
+    });

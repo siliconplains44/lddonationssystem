@@ -1,0 +1,10 @@
+{
+  "mariadbconnstring": "",
+  "outputproject": "/users/allan/projects/yivg/ldnetcorespavdb/ldnetcorespavdb",
+  "dalnamespace": "ldvdbdal",
+  "blnamespace": "ldvdbbusinesslogic",
+  "classlibrarynamespace": "ldvdbclasslibrary",
+  "classlibraryoutputproject": "/users/allan/projects/yivg/ldnetcorespavdb/ldvdbclasslibrary",
+  "dataaccessoutputproject": "/users/allan/projects/yivg/ldnetcorespavdb/ldvdbdataaccess",
+  "businesslogicoutputproject": "/users/allan/projects/yivg/ldnetcorespavdb/ldvdbbusinesslogic"
+}

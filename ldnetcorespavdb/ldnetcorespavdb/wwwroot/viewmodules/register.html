@@ -1,0 +1,100 @@
+﻿<div class="minimal-height">
+    <div class="row  justify-content-center">
+        <h1>Site Registration</h1>
+    </div>
+    <div class="row  justify-content-center">
+        <div class="form-horizontal">
+            <fieldset>
+                <div class="control-group">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active">
+                            <input type="radio" name="optionsaccounttype" id="optiondonor" autocomplete="off"> Donor
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="optionsaccounttype" id="optionclient" autocomplete="off"> Client
+                        </label>
+                    </div>       
+                    <div class="invalid-feedback" id="selectclientordonordiv">
+                        You must select client or donor before you create a new account!
+                    </div>
+                </div>
+
+                    <div class="form-group">
+                        <!-- E-mail -->
+                        <label class="control-label" for="email">E-mail</label>
+                        
+                            <input type="text" id="email" name="email" placeholder="Email" class="form-control">
+                            <p class="help-block">Please provide your E-mail</p>
+                            <div class="invalid-feedback">
+                                You must provide a valid email to create a new account!
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- Password-->
+                        <label class="control-label" for="password">Password</label>                        
+                            <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                            <p class="help-block">Password should be at least 8 characters</p>
+                            <div class="invalid-feedback">
+                                A valid password must be provided before continuuing!                        
+                    </div>
+
+                    <div class="cform-group">
+                        <!-- Password -->
+                        <label class="control-label" for="password_confirm">Password (Confirm)</label>
+                        
+                            <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" class="form-control">
+                            <p class="help-block">Please confirm password</p>
+                            <div class="invalid-feedback">
+                                A valid password must be provided before continuuing!
+                            </div>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- Button -->
+                        <div class="controls">
+                            <button id="buttonregister" class="btn btn-success">Register</button>
+                        </div>
+                    </div>
+            </fieldset>
+        </div>
+    </div>
+</div>
+
+<div id="accountcreatedmodal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>You have successfully created a new account.  To fully activate your account, please check your email and click the registration link.</p>
+            </div>
+            <div class="modal-footer">                
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="accountcreationfailedmodal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We are unable to create your account at this time, please contact Leopard Data support for additional information.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

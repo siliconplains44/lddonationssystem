@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{92151578-D5F5-482A-B473-D4E9F25943BE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ldnetcorespavdb/dal/CustomDataAccess.cs">
+    <Files>
+      <File FileName="ldnetcorespavdb/wwwroot/viewmodules/managepersonalinformation.html" Line="99" Column="64" />
+      <File FileName="ldnetcorespavdb/wwwroot/viewmodules/managepersonalinformation.js" Line="24" Column="40" />
+      <File FileName="ldnetcorespavdb/WebApis/CustomController.cs" Line="160" Column="25" />
+      <File FileName="ldnetcorespavdb/dal/ICustomDataAccess.cs" Line="19" Column="94" />
+      <File FileName="ldnetcorespavdb/dal/CustomDataAccess.cs" Line="256" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ldnetcorespavdb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

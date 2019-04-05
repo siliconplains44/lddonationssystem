@@ -1,0 +1,110 @@
+﻿<div>
+    <div class="row mb-2">
+        <div class="col-md-2">
+            <a href="#" id="linkdashboard">Dashboard</a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <button id="buttonaddclient" type="button" class="btn btn-primary">Add Client...</button>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-12">
+            <div id="clientstable"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="deleteconfirmationdialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Confirmation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete the selected client?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttondeleteclient">Delete</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="addclientdialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dialogtitle">Add Client</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="textemailaddress" class="col-form-label">Email Address</label>
+                        <input type="text" class="form-control" id="textemailaddress">                        
+                    </div>
+                    <div class="form-group">
+                        <label for="textlastname" class="col-form-label">Last Name</label>
+                        <input type="text" class="form-control" id="textlastname">
+                        <div class="invalid-feedback">
+                            Last Name is required!
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textmiddlename" class="col-form-label">Middle Name</label>
+                        <input type="text" class="form-control" id="textmiddlename">
+                    </div>
+                    <div class="form-group">
+                        <label for="textfirstname" class="col-form-label">First Name</label>
+                        <input type="text" class="form-control" id="textfirstname">
+                        <div class="invalid-feedback">
+                            First Name is required!
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="datebirthday" class="col-form-label">Birthday</label>
+                        <input type="date" class="form-control" id="datebirthday">
+                    </div>
+                    <div class="form-group">
+                        <label for="textmobilephonenumber" class="col-form-label">Mobile Phone Number</label>
+                        <input type="text" class="form-control" id="textmobilephonenumber" placeholder="214-555-5555">
+                    </div>
+                    <div class="form-group">
+                        <label for="texthomephonenumber" class="col-form-label">Home Phone Number</label>
+                        <input type="text" class="form-control" id="texthomephonenumber" placeholder="214-555-5555">
+                    </div>
+                    <div class="form-group">
+                        <label for="textaddresslineone" class="col-form-label">Address Line 1</label>
+                        <input type="text" class="form-control" id="textaddresslineone" placeholder="2105 20th St">
+                    </div>
+                    <div class="form-group">
+                        <label for="textaddresslinetwo" class="col-form-label">Address Line 2</label>
+                        <input type="text" class="form-control" id="textaddresslinetwo" placeholder="#125">
+                    </div>
+                    <div class="form-group">
+                        <label for="textcity" class="col-form-label">City</label>
+                        <input type="text" class="form-control" id="textcity">
+                    </div>
+                    <div class="form-group">
+                        <label for="textstate" class="col-form-label">State</label>
+                        <input type="text" class="form-control" id="textstate">
+                    </div>
+                    <div class="form-group">
+                        <label for="textzip" class="col-form-label">Zip</label>
+                        <input type="text" class="form-control" id="textzip">
+                    </div>                      
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="buttonaddtheclient">Add</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

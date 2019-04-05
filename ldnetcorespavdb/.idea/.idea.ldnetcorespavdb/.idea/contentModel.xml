@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\projects\yivg\ldnetcorerestapitodbgen" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Column.cs" t="Include" />
+      <e p="demojavascriptcodetouseapi.txt" t="Include" />
+      <e p="docs" t="Include" />
+      <e p="ldnetcorerestapitodbgen.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="ldnetcorerestapitodbgen.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="settings.json" t="Include" />
+    </e>
+    <e p="C:\projects\yivg\ldnetcorespavdb" t="IncludeFlat">
+      <e p="Application" t="Include" />
+      <e p="docker-compose.dcproj" t="IncludeRecursive" />
+      <e p="ldnetcorespavdb" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="bundleconfig.json" t="Include" />
+        <e p="businesslogic" t="Include">
+          <e p="CustomBusinessLogic.cs" t="Include" />
+          <e p="ICustomBusinessLogic.cs" t="Include" />
+          <e p="IEmailSender.cs" t="Include" />
+          <e p="ITextSender.cs" t="Include" />
+          <e p="ldncgenaccounttypesManager.cs" t="Include" />
+          <e p="ldncgendonorfundscommitmentsManager.cs" t="Include" />
+          <e p="ldncgendonorprogramenlistmentsManager.cs" t="Include" />
+          <e p="ldncgenemailstosendManager.cs" t="Include" />
+          <e p="ldncgenfileuploadsManager.cs" t="Include" />
+          <e p="ldncgenhappyrecipientpicturesManager.cs" t="Include" />
+          <e p="ldncgenIaccounttypesManager.cs" t="Include" />
+          <e p="ldncgenIdonorfundscommitmentsManager.cs" t="Include" />
+          <e p="ldncgenIdonorprogramenlistmentsManager.cs" t="Include" />
+          <e p="ldncgenIemailstosendManager.cs" t="Include" />
+          <e p="ldncgenIfileuploadsManager.cs" t="Include" />
+          <e p="ldncgenIhappyrecipientpicturesManager.cs" t="Include" />
+          <e p="ldncgenIindividualpicturesManager.cs" t="Include" />
+          <e p="ldncgenIindividualsManager.cs" t="Include" />
+          <e p="ldncgenImoduleviewsManager.cs" t="Include" />
+          <e p="ldncgenindividualpicturesManager.cs" t="Include" />
+          <e p="ldncgenindividualsManager.cs" t="Include" />
+          <e p="ldncgenIprogramdonorcommitmentsManager.cs" t="Include" />
+          <e p="ldncgenIprogrameventsManager.cs" t="Include" />
+          <e p="ldncgenIprogramsManager.cs" t="Include" />
+          <e p="ldncgenIrecipientprogramenlistmentsManager.cs" t="Include" />
+          <e p="ldncgenIrecipientrequestsManager.cs" t="Include" />
+          <e p="ldncgenIsettingsManager.cs" t="Include" />
+          <e p="ldncgenItextstosendManager.cs" t="Include" />
+          <e p="ldncgenIuserindividualsManager.cs" t="Include" />
+          <e p="ldncgenIusersManager.cs" t="Include" />
+          <e p="ldncgenmoduleviewsManager.cs" t="Include" />
+          <e p="ldncgenprogramdonorcommitmentsManager.cs" t="Include" />
+          <e p="ldncgenprogrameventsManager.cs" t="Include" />
+          <e p="ldncgenprogramsManager.cs" t="Include" />
+          <e p="ldncgenrecipientprogramenlistmentsManager.cs" t="Include" />
+          <e p="ldncgenrecipientrequestsManager.cs" t="Include" />
+          <e p="ldncgensettingsManager.cs" t="Include" />
+          <e p="ldncgentextstosendManager.cs" t="Include" />
+          <e p="ldncgenuserindividualsManager.cs" t="Include" />
+          <e p="ldncgenusersManager.cs" t="Include" />
+        </e>
+        <e p="classlibrary" t="Include">
+          <e p="enumerations.cs" t="Include" />
+          <e p="ldncgenaccounttypes.cs" t="Include" />
+          <e p="ldncgendonorfundscommitments.cs" t="Include" />
+          <e p="ldncgendonorprogramenlistments.cs" t="Include" />
+          <e p="ldncgenemailstosend.cs" t="Include" />
+          <e p="ldncgenenumerations.cs" t="Include" />
+          <e p="ldncgenfileuploads.cs" t="Include" />
+          <e p="ldncgenhappyrecipientpictures.cs" t="Include" />
+          <e p="ldncgenindividualpictures.cs" t="Include" />
+          <e p="ldncgenindividuals.cs" t="Include" />
+          <e p="ldncgenmoduleviews.cs" t="Include" />
+          <e p="ldncgenprogramdonorcommitments.cs" t="Include" />
+          <e p="ldncgenprogramevents.cs" t="Include" />
+          <e p="ldncgenprograms.cs" t="Include" />
+          <e p="ldncgenrecipientprogramenlistments.cs" t="Include" />
+          <e p="ldncgenrecipientrequests.cs" t="Include" />
+          <e p="ldncgensettings.cs" t="Include" />
+          <e p="ldncgentextstosend.cs" t="Include" />
+          <e p="ldncgenuserindividuals.cs" t="Include" />
+          <e p="ldncgenusers.cs" t="Include" />
+        </e>
+        <e p="dal" t="Include">
+          <e p="AdoNetUnitOfWork.cs" t="Include" />
+          <e p="CustomDataAccess.cs" t="Include" />
+          <e p="DbConnectionFactory.cs" t="Include" />
+          <e p="DbContext.cs" t="Include" />
+          <e p="IConnectionFactory.cs" t="Include" />
+          <e p="ICustomDataAccess.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="ldncgenaccounttypesRepository.cs" t="Include" />
+          <e p="ldncgendonorfundscommitmentsRepository.cs" t="Include" />
+          <e p="ldncgendonorprogramenlistmentsRepository.cs" t="Include" />
+          <e p="ldncgenemailstosendRepository.cs" t="Include" />
+          <e p="ldncgenfileuploadsRepository.cs" t="Include" />
+          <e p="ldncgenhappyrecipientpicturesRepository.cs" t="Include" />
+          <e p="ldncgenIaccounttypesRepository.cs" t="Include" />
+          <e p="ldncgenIdonorfundscommitmentsRepository.cs" t="Include" />
+          <e p="ldncgenIdonorprogramenlistmentsRepository.cs" t="Include" />
+          <e p="ldncgenIemailstosendRepository.cs" t="Include" />
+          <e p="ldncgenIfileuploadsRepository.cs" t="Include" />
+          <e p="ldncgenIhappyrecipientpicturesRepository.cs" t="Include" />
+          <e p="ldncgenIindividualpicturesRepository.cs" t="Include" />
+          <e p="ldncgenIindividualsRepository.cs" t="Include" />
+          <e p="ldncgenImoduleviewsRepository.cs" t="Include" />
+          <e p="ldncgenindividualpicturesRepository.cs" t="Include" />
+          <e p="ldncgenindividualsRepository.cs" t="Include" />
+          <e p="ldncgenIprogramdonorcommitmentsRepository.cs" t="Include" />
+          <e p="ldncgenIprogrameventsRepository.cs" t="Include" />
+          <e p="ldncgenIprogramsRepository.cs" t="Include" />
+          <e p="ldncgenIrecipientprogramenlistmentsRepository.cs" t="Include" />
+          <e p="ldncgenIrecipientrequestsRepository.cs" t="Include" />
+          <e p="ldncgenIsettingsRepository.cs" t="Include" />
+          <e p="ldncgenItextstosendRepository.cs" t="Include" />
+          <e p="ldncgenIuserindividualsRepository.cs" t="Include" />
+          <e p="ldncgenIusersRepository.cs" t="Include" />
+          <e p="ldncgenmoduleviewsRepository.cs" t="Include" />
+          <e p="ldncgenprogramdonorcommitmentsRepository.cs" t="Include" />
+          <e p="ldncgenprogrameventsRepository.cs" t="Include" />
+          <e p="ldncgenprogramsRepository.cs" t="Include" />
+          <e p="ldncgenrecipientprogramenlistmentsRepository.cs" t="Include" />
+          <e p="ldncgenrecipientrequestsRepository.cs" t="Include" />
+          <e p="ldncgensettingsRepository.cs" t="Include" />
+          <e p="ldncgentextstosendRepository.cs" t="Include" />
+          <e p="ldncgenuserindividualsRepository.cs" t="Include" />
+          <e p="ldncgenusersRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="docs" t="Include" />
+        <e p="gulpfile.js" t="Include" />
+        <e p="ldnetcorespavdb.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="ldnetcorespavdb.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="tsconfig.json" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="WebApis" t="Include">
+          <e p="CustomController.cs" t="Include" />
+          <e p="ldncgenController.cs" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="site.min.css" t="Include" />
+          </e>
+          <e p="Default.html" t="Include" />
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="banner1.svg" t="Include" />
+            <e p="banner2.svg" t="Include" />
+            <e p="banner3.svg" t="Include" />
+            <e p="banner4.svg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="application.js" t="Include" />
+            <e p="customajajclient.js" t="Include" />
+            <e p="customajajclient.js.map" t="Include" />
+            <e p="customajajclient.ts" t="Include" />
+            <e p="ldncgenajajclient.js" t="Include" />
+            <e p="ldncgenajajclient.js.map" t="Include" />
+            <e p="ldncgenajajclient.ts" t="Include" />
+            <e p="minimal.js" t="Include" />
+            <e p="site.js" t="Include" />
+            <e p="site.min.js" t="Include" />
+            <e p="utility.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-theme.css" t="Include" />
+                  <e p="bootstrap-theme.css.map" t="Include" />
+                  <e p="bootstrap-theme.min.css" t="Include" />
+                  <e p="bootstrap-theme.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="glyphicons-halflings-regular.eot" t="Include" />
+                  <e p="glyphicons-halflings-regular.svg" t="Include" />
+                  <e p="glyphicons-halflings-regular.ttf" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff" t="Include" />
+                  <e p="glyphicons-halflings-regular.woff2" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="npm.js" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+            </e>
+          </e>
+          <e p="sanity.html" t="Include" />
+          <e p="viewmodules" t="Include">
+            <e p="about.html" t="Include" />
+            <e p="about.js" t="Include" />
+            <e p="addeditprogram.html" t="Include" />
+            <e p="addeditprogram.js" t="Include" />
+            <e p="addeditprogramevent.html" t="Include" />
+            <e p="addeditprogramevent.js" t="Include" />
+            <e p="confirmregistration.html" t="Include" />
+            <e p="confirmregistration.js" t="Include" />
+            <e p="contact.html" t="Include" />
+            <e p="contact.js" t="Include" />
+            <e p="dashboard.html" t="Include" />
+            <e p="dashboard.js" t="Include" />
+            <e p="home.html" t="Include" />
+            <e p="home.js" t="Include" />
+            <e p="loggedout.html" t="Include" />
+            <e p="loggedout.js" t="Include" />
+            <e p="login.html" t="Include" />
+            <e p="login.js" t="Include" />
+            <e p="managepersonalinformation.html" t="Include" />
+            <e p="managepersonalinformation.js" t="Include" />
+            <e p="manageprograms.html" t="Include" />
+            <e p="manageprograms.js" t="Include" />
+            <e p="modifypassword.html" t="Include" />
+            <e p="modifypassword.js" t="Include" />
+            <e p="register.html" t="Include" />
+            <e p="register.js" t="Include" />
+            <e p="resetpassword.html" t="Include" />
+            <e p="resetpassword.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="ldnetcorespavdb.sln" t="IncludeFlat" />
+      <e p="ldnotificationsenderprocess" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ldnotificationsenderprocess.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="ldnotificationsenderprocess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="mailgunaccount.txt" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\projects\yivg\randomcodegenpoc" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="randomcodegenpoc.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="randomcodegenpoc.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\app.config.transform" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlCommand.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlCommandBuilder.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlConnection.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlConnectionStringBuilder.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlDataAdapter.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlDataReader.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlException.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlHelper.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlParameter.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlParameterCollection.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\docs\MySqlTransaction.xml" t="Include" />
+    <e p="C:\Users\User\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netcoreapp2.0\web.config.transform" t="Include" />
+    <e p="C:\Users\User\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_ldnetcorespavdb.1457169992.00" t="ExcludeRecursive" />
+  </component>
+</project>

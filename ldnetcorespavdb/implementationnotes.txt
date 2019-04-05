@@ -1,0 +1,26 @@
+﻿Overview
+
+This document has been written to document some of the assumptions that went into
+designing and developing this solution.  
+
+User Accounts, Individuals, Donors, Clients, and Administrators
+
+The 3 main account types in the system is administrator, client, and donor.
+A client is in need of services, a donor is something that provides service
+resources, and an administrator manages the system.  
+
+Within the database schema we have tables for donor, client, and admins.  Each
+table is designed to hold their respective information.  When we create user
+accounts we do not create records in the admins, clients, and donors table.  
+
+The system allows sign up a couple different ways.  You can sign up from the
+registration page, or an admin can create other admins, donors, or clients.
+Clients can be created with or without a user account.  Some clients are the 
+kids of the families that need service resources and they won't need an account
+on the site.  Donors are created and always associated with a user account.
+Admins are also always associated with a user account.  
+
+The only way administrators can be created is from within the web application.  
+Only an existing administrator may create and manage all other administrators.
+
+

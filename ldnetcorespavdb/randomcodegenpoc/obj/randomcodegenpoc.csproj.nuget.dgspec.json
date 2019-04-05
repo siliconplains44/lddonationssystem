@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projectsgithub\\lddonationssystem\\ldnetcorespavdb\\randomcodegenpoc\\randomcodegenpoc.csproj": {}
+  },
+  "projects": {
+    "C:\\projectsgithub\\lddonationssystem\\ldnetcorespavdb\\randomcodegenpoc\\randomcodegenpoc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projectsgithub\\lddonationssystem\\ldnetcorespavdb\\randomcodegenpoc\\randomcodegenpoc.csproj",
+        "projectName": "randomcodegenpoc",
+        "projectPath": "C:\\projectsgithub\\lddonationssystem\\ldnetcorespavdb\\randomcodegenpoc\\randomcodegenpoc.csproj",
+        "packagesPath": "C:\\Users\\silic\\.nuget\\packages\\",
+        "outputPath": "C:\\projectsgithub\\lddonationssystem\\ldnetcorespavdb\\randomcodegenpoc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\silic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.grapecity.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
