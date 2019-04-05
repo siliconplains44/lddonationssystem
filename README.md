@@ -21,6 +21,8 @@ What are the technologies demoed in this project?
 * AJAJ (Asynchronous Javascript and Json)
 * Simplified REST 
 * Nginx
+* Twilio Integration
+* SendGrid Integration
 
 How do I get this code up and running?
 
